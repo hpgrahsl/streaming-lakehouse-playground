@@ -6,8 +6,8 @@ This containerized playground provides a quick and convenient way to experiment 
 
 1. **Apache Flink / SQL:** uses a faker data source connector to generate a synthetic stream of order related data across 3 tables (`source_order`,`source_customer`, `source_nation`)
 2. **Apache Fluss:** as streaming storage for real-time analytics with configured lakehouse tiering
-3. **Lance:** - used as lakehouse table format backed by object storage (MinIO)
-4. **LanceDB API Server** - a very basic custom service wrapper (Python FastAPI) around LanceDB to directly query the streaming lakehouse via HTTP
+3. **Lance:** used as lakehouse table format backed by object storage (MinIO)
+4. **LanceDB API Server:** a very basic custom service wrapper (Python FastAPI) around LanceDB to directly query the streaming lakehouse via HTTP
 
 ## Quick Start
 
