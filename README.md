@@ -19,7 +19,7 @@ Open a terminal window in the root directory of this repository and run
 docker compose up
 ```
 
-During the very first run, this will build the container image for the LanceDB API Server and then start the containers for all involved data infra components accordingly. After a few moments, you should have the following 7 containers up and running locally:
+During the very first run, this will build two container images - a custom Apache Flink image and the LanceDB API Server image - and then start the containers for all involved data infra components accordingly. After a few moments, you should have the following 7 containers up and running locally:
 
 ```
 CONTAINER ID   IMAGE                                               COMMAND                  CREATED              STATUS              PORTS                                                             NAMES
